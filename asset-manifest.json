@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/time-trace-page/static/css/main.ffce4fd0.css",
-    "main.js": "/time-trace-page/static/js/main.c4602555.js",
+    "main.css": "/time-trace-page/static/css/main.39d76f77.css",
+    "main.js": "/time-trace-page/static/js/main.b4215edb.js",
     "static/js/787.055e746e.chunk.js": "/time-trace-page/static/js/787.055e746e.chunk.js",
     "static/media/data.png": "/time-trace-page/static/media/data.563c1729940cd48e221a.png",
     "static/media/record.png": "/time-trace-page/static/media/record.a9d6ba0fcc3bbec6d622.png",
@@ -10,12 +10,12 @@
     "static/media/light_logo.png": "/time-trace-page/static/media/light_logo.a03b0627eb38f2addb7f.png",
     "static/media/appStore.png": "/time-trace-page/static/media/appStore.f0e7890d9a0569c18dbf.png",
     "index.html": "/time-trace-page/index.html",
-    "main.ffce4fd0.css.map": "/time-trace-page/static/css/main.ffce4fd0.css.map",
-    "main.c4602555.js.map": "/time-trace-page/static/js/main.c4602555.js.map",
+    "main.39d76f77.css.map": "/time-trace-page/static/css/main.39d76f77.css.map",
+    "main.b4215edb.js.map": "/time-trace-page/static/js/main.b4215edb.js.map",
     "787.055e746e.chunk.js.map": "/time-trace-page/static/js/787.055e746e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffce4fd0.css",
-    "static/js/main.c4602555.js"
+    "static/css/main.39d76f77.css",
+    "static/js/main.b4215edb.js"
   ]
 }
