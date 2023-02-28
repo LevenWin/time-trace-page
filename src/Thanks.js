@@ -30,7 +30,7 @@ export default class Thanks extends Component {
 
         return (
             <div className='body'>
-                <div className='logo'>
+                <div className='thanks-logo'>
                     <img src={require('./img/thanks_logo.png')}></img>
                     <text>时间印迹</text>
                     <text>V1.01(1)</text>
