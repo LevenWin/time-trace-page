@@ -1,7 +1,7 @@
-import './App.css';
+import './Home.css';
 import React, { Component } from 'react';
 
-export default class App extends Component {
+export default class Home extends Component {
   constructor(props) {
     super(props);
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this)
@@ -45,21 +45,21 @@ export default class App extends Component {
           </div>
           <div className='value-item'>
             <img src={require('./img/value2.png')}></img>
-            <text className='sh2'>提升专注力</text>
-            <text className='sh3'>尤其是将时间分为不同的各个模块</text>
+            <text className='sh2'>工作生活分开</text>
+            <text className='sh3'>给自己一个目标，工作多少小时就停止。找到工作与生活的平衡</text>
           </div>
         </div>
         <div className='value-items small-values'>
           <div className='value-item'>
             <img src={require('./img/value3.png')}></img>
-            <text className='sh2'>提升专注力</text>
-            <text className='sh3'>尤其是将时间分为不同的各个模块</text>
+            <text className='sh2'>持续做某事</text>
+            <text className='sh3'>统计在某件事上花时间，就更容易坚持</text>
           </div>
 
           <div className={['value-item']}>
             <img src={require('./img/value4.png')}></img>
-            <text className='sh2'>提升专注力</text>
-            <text className='sh3'>尤其是将时间分为不同的各个模块</text>
+            <text className='sh2'>认识自我</text>
+            <text className='sh3'>知道自己的时间花在了哪里，从而更加了解自己</text>
           </div>
         </div>
         <div className='value-line'></div>
@@ -75,19 +75,19 @@ export default class App extends Component {
           </div>
           <div className='value-item'>
             <img src={require('./img/value2.png')}></img>
-            <text className="h2">提升专注力</text>
-            <text className="h3">尤其是将时间分为不同的各个模块</text>
+            <text className='h2'>工作生活分开</text>
+            <text className='h3'>给自己一个目标，工作多少小时就停止。找到工作与生活的平衡</text>
           </div>
           <div className='value-item'>
             <img src={require('./img/value3.png')}></img>
-            <text className="h2">提升专注力</text>
-            <text className="h3">尤其是将时间分为不同的各个模块</text>
+            <text className='h2'>持续做某事</text>
+            <text className='h3'>统计在某件事上花时间，就更容易坚持</text>
           </div>
 
           <div className={['value-item']}>
             <img src={require('./img/value4.png')}></img>
-            <text className="h2">提升专注力</text>
-            <text className="h3">尤其是将时间分为不同的各个模块</text>
+            <text className='h2'>认识自我</text>
+            <text className='h3'>知道自己的时间花在了哪里，从而更加了解自己</text>
           </div>
         </div>
         <div className='value-line'></div>
@@ -117,7 +117,7 @@ export default class App extends Component {
               记录专注、习惯专注、享受专注，成为理想的自己更近一步
             </text>
           </div>
-          <div className='Banner-App'></div>
+          <div className={'Banner-App ' + (isSmall ? "small-app" : "")}></div>
 
 
 
@@ -125,13 +125,13 @@ export default class App extends Component {
 
         {valueItems}
 
-        <div className='record-container'>
+        <div className={'record-container '  + (isSmall ? "small-container" : "")}>
           <text className={(isSmall ? "sh1" : "h1")}>快速丰富的记录</text>
           <text className={(isSmall ? "sh3" : "h3")}>尤其是将时间分为不同的各个模块，在完成之后再做别的事，将大大提升我们的专注力</text>
           <img src={require('./img/record.png')}></img>
         </div>
 
-        <div className='data-container'>
+        <div className={'data-container ' + (isSmall ? "small-container" : "")}>
           <text  className={(isSmall ? "sh1" : "h1")}>掌控回顾时间</text>
           <text className={(isSmall ? "sh3" : "h3")}> 尤其是将时间分为不同的各个模块，在完成之后再做别的事，将大大提升我们的专注力</text>
           <img src={require('./img/data.png')}></img>

@@ -114,17 +114,15 @@ body {
   font-size: 3vw;
 }
 .Banner-App {
-  width: 30vh;
+  width: 33vh;
   height: 48vh;
-  /* min-width: 300px; */
-  border-top-left-radius: 5vh;
-  border-top-right-radius: 5vh;
-  border-width: 12px;
-  border-bottom-width: 0;
-  border-color: #1556DA;
-  border-style: solid;
   background-image: url(img/banner_app.png);
-  background-size: cover;
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.small-app {
+  width: 65vw;
 }
 
 
@@ -177,6 +175,7 @@ body {
   align-items: center;
   /* padding-top: 120px; */
   padding-top: 13vh;
+  width: 80%;
 }
 .value-container >text {
   /* font-size: 48px; */
@@ -187,7 +186,7 @@ body {
   display: flex;
   flex-direction: row;
   /* align-items: center; */
-  justify-content: space-around;
+  justify-content: space-between;
   /* margin-top: 80px; */
   margin-top: 9vh;
 
@@ -212,7 +211,7 @@ body {
   flex-direction: column;
   align-items: center;
   /* max-width: 288px; */
-  max-width: 25vw;
+  max-width: 20vw;
   /* max-height: 319px; */
   max-height: 32vh;
 }
@@ -239,6 +238,11 @@ body {
 .small-values .value-item {
   /* background-color: #72767D; */
   width: 40vw;
+  max-width: 35vw;
+}
+.small-values .value-item>img {
+  width: 22vw;
+  height: 22vw;
 }
 
 .record-container {
@@ -263,7 +267,10 @@ body {
 .record-container >img{
   width: 70%;
   margin-top: 9.1vh;
-
+}
+.small-container >img {
+  width: 90%;
+  margin-bottom: 30px;
 }
 
 .data-container {
@@ -289,7 +296,10 @@ body {
 .data-container >img {
   width: 50%;
   margin-top: 5.5vh;
-
+}
+.small-container >img {
+  width: 90%;
+  margin-bottom: 30px;
 }
 .footer {
   width: 100%;
@@ -357,10 +367,11 @@ body {
 }
 
 .h2 {
-  font-size: 3vh;
+  font-size: 2.5vh;
+  font-weight: bold;
 }
 .sh2 {
-  font-size: 4.8vw;
+  font-size: 4.3vw;
 }
 
 .h3 {
