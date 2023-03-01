@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/levenwin.github.io/static/css/main.b65259b0.css",
-    "main.js": "/levenwin.github.io/static/js/main.1c8232d3.js",
-    "static/js/787.055e746e.chunk.js": "/levenwin.github.io/static/js/787.055e746e.chunk.js",
-    "static/media/data.png": "/levenwin.github.io/static/media/data.563c1729940cd48e221a.png",
-    "static/media/record.png": "/levenwin.github.io/static/media/record.a9d6ba0fcc3bbec6d622.png",
-    "static/media/banner_bg.png": "/levenwin.github.io/static/media/banner_bg.0e68a522bb04d8d3233f.png",
-    "static/media/banner_app.png": "/levenwin.github.io/static/media/banner_app.cc616abcc3638e03bb1b.png",
-    "static/media/light_logo.png": "/levenwin.github.io/static/media/light_logo.a03b0627eb38f2addb7f.png",
-    "static/media/appStore.png": "/levenwin.github.io/static/media/appStore.f0e7890d9a0569c18dbf.png",
-    "index.html": "/levenwin.github.io/index.html",
-    "main.b65259b0.css.map": "/levenwin.github.io/static/css/main.b65259b0.css.map",
-    "main.1c8232d3.js.map": "/levenwin.github.io/static/js/main.1c8232d3.js.map",
-    "787.055e746e.chunk.js.map": "/levenwin.github.io/static/js/787.055e746e.chunk.js.map"
+    "main.css": "/lovetime.life/static/css/main.9b4cbd95.css",
+    "main.js": "/lovetime.life/static/js/main.02a5cc1f.js",
+    "static/js/787.055e746e.chunk.js": "/lovetime.life/static/js/787.055e746e.chunk.js",
+    "static/media/data.png": "/lovetime.life/static/media/data.563c1729940cd48e221a.png",
+    "static/media/record.png": "/lovetime.life/static/media/record.a9d6ba0fcc3bbec6d622.png",
+    "static/media/banner_bg.png": "/lovetime.life/static/media/banner_bg.0e68a522bb04d8d3233f.png",
+    "static/media/banner_app.png": "/lovetime.life/static/media/banner_app.cc616abcc3638e03bb1b.png",
+    "static/media/light_logo.png": "/lovetime.life/static/media/light_logo.a03b0627eb38f2addb7f.png",
+    "static/media/appStore.png": "/lovetime.life/static/media/appStore.f0e7890d9a0569c18dbf.png",
+    "index.html": "/lovetime.life/index.html",
+    "main.9b4cbd95.css.map": "/lovetime.life/static/css/main.9b4cbd95.css.map",
+    "main.02a5cc1f.js.map": "/lovetime.life/static/js/main.02a5cc1f.js.map",
+    "787.055e746e.chunk.js.map": "/lovetime.life/static/js/787.055e746e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b65259b0.css",
-    "static/js/main.1c8232d3.js"
+    "static/css/main.9b4cbd95.css",
+    "static/js/main.02a5cc1f.js"
   ]
 }
