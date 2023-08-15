@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './Thanks.css'
 export default class Thanks extends Component {
+    componentDidMount() {
+        document.title = "感谢"
+    }
 
 
     getTags(tags, isRow) {
@@ -31,7 +34,7 @@ export default class Thanks extends Component {
         return (
             <div className='body'>
                 <div className='thanks-logo'>
-                    <img src={require('./img/thanks_logo.png')}></img>
+                    <img src="https://lc-gluttony.s3.amazonaws.com/ZzwZfP9iPTCF/VNrFeB74j1CLQhvuRXYbscWWoSn0gKHG/thanks_logo.png"></img>
                     <text>时间印迹</text>
                     <text>V1.01(1)</text>
                 </div>
